@@ -1,4 +1,8 @@
 /* General Reset */
+
+:root{
+    --div-background:#fff;
+}
 body, h1, h2, p, ul, li, nav, a {
     margin: 0;
     padding: 0;
@@ -10,11 +14,12 @@ body, h1, h2, p, ul, li, nav, a {
   
   /* Body */
   body {
-    background: linear-gradient(120deg, #f3f4f6, #e2e8f0);
+    background: linear-gradient(120deg, #65d5f1, #8d01ff);
     color: #333;
     line-height: 1.8;
     padding: 20px;
     animation: fadeIn 1.5s ease-in;
+      background-color: #00c4cc;
   }
   
   @keyframes fadeIn {
@@ -134,10 +139,11 @@ body, h1, h2, p, ul, li, nav, a {
   section {
     margin: 50px 0;
     padding: 30px;
-    background: #fff;
+    background: #89ce878a;
     border-radius: 15px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid rgb(255, 255, 255);
   }
   
   section:hover {
